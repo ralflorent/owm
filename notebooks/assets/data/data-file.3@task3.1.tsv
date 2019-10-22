@@ -1,0 +1,42 @@
+/* DATA DESCRIPTION:
+Citation:	Ikari, Matt J; Strasser, Michael; Saffer, Demian M; Kopf, Achim J (2011): (Table 1) Experimental shear strength values for IODP Exp315 and Exp316 holes. PANGAEA, https://doi.org/10.1594/PANGAEA.786715, 
+	Supplement to: Ikari, MJ et al. (2011): Submarine landslide potential near the megasplay fault at the Nankai subduction zone. Earth and Planetary Science Letters, 312(3-4), 453-462, https://doi.org/10.1016/j.epsl.2011.10.024
+Abstract:	We investigate the mechanics of slope failures on the Nankai accretionary complex offshore Japan in the vicinity of a major out-of-sequence thrust fault (termed the "megasplay"). Incorporating laboratory-measured shear strength of slope sediments sampled during Integrated Ocean Drilling Project (IODP) Expeditions 315 and 316 with local seafloor slope angles from bathymetric data and constraints on in-situ effective stress conditions from drilling, we find that slopes in the study area are stable and submarine landslides are not expected to occur under static conditions. In order to assess the possibility of slope failure triggered by coseismic rupture of the megasplay fault, we use empirical relations for strong ground motion attenuation from earthquakes with Mw 6-9. We find that the slope sediments should be stable based on computations from one model, developed from a catalog of worldwide subduction zone earthquakes (Youngs et al., 1997, doi:10.1785/gssrl.68.1.58). However, using a different model developed primarily from a catalog of crustal earthquakes in Japan (Kanno et al., 2006, doi:10.1785/0120050138), we find that slopes should be unstable for earthquakes 8 <= Mw <= 9, and possibly unstable for events with 6 <= Mw < 8, depending on the proximity of rupture to the seafloor. Considering limitations of the models and geologic observations of slope failure recurrence, the true slope stability is likely to be in between the predictions of the two models, and we suggest that it may be modulated by long-term pore pressure fluctuations.
+Project(s):	Integrated Ocean Drilling Program / International Ocean Discovery Program (IODP) (URI: http://www.iodp.org/)
+Coverage:	MEDIAN LATITUDE: 33.224416 * MEDIAN LONGITUDE: 136.720129 * SOUTH-BOUND LATITUDE: 33.213715 * WEST-BOUND LONGITUDE: 136.711540 * NORTH-BOUND LATITUDE: 33.239070 * EAST-BOUND LONGITUDE: 136.726662
+	DATE/TIME START: 2007-12-20T00:00:00 * DATE/TIME END: 2008-01-27T00:00:00
+	MINIMUM DEPTH, sediment/rock: 7.91 m * MAXIMUM DEPTH, sediment/rock: 121.29 m
+Event(s):	315-C0001E * LATITUDE: 33.239070 * LONGITUDE: 136.711540 * ELEVATION: -2198.0 m * CAMPAIGN: Exp315 (NanTroSEIZE Stage 1: Megasplay Riser Pilot) (URI: https://doi.org/10.2204/iodp.proc.314315316.133.2009) * BASIS: Chikyu (URI: http://www.jamstec.go.jp/chikyu/eng/CHIKYU/index.html) * DEVICE: Drilling/drill rig (DRILL) * COMMENT: 13 HPCS cores; 118.1 m cored; 95.4 % recovered; 118.1 m drilled; Lost inner core barrel in hole
+	316-C0004C * LATITUDE: 33.220463 * LONGITUDE: 136.722187 * DATE/TIME: 2007-12-20T00:00:00 * ELEVATION: -2627.0 m * Recovery: 135.23 m * CAMPAIGN: Exp316 (NanTroSEIZE Stage 1: Shallow Megaslay and Frontal Thrusts) (URI: https://doi.org/10.2204/iodp.proc.314315316.133.2009) * BASIS: Chikyu (URI: http://www.jamstec.go.jp/chikyu/eng/CHIKYU/index.html) * DEVICE: Drilling/drill rig (DRILL) * COMMENT: 18 cores; 131.3 m cored; 102.31 % recovery; 135 m drilled; 135 m penetrated
+	316-C0008A * LATITUDE: 33.213715 * LONGITUDE: 136.726662 * DATE/TIME: 2008-01-27T00:00:00 * ELEVATION: -2751.0 m * Recovery: 271.2 m * CAMPAIGN: Exp316 (NanTroSEIZE Stage 1: Shallow Megaslay and Frontal Thrusts) (URI: https://doi.org/10.2204/iodp.proc.314315316.133.2009) * BASIS: Chikyu (URI: http://www.jamstec.go.jp/chikyu/eng/CHIKYU/index.html) * DEVICE: Drilling/drill rig (DRILL) * COMMENT: 43 cores; 357.8 m cored; 75.81 % recovery; 357.8 m drilled; 357.75 m penetrated
+Parameter(s):	Event label (Event)
+	Sample code/label (Sample label) * PI: Ikari, Matt J * METHOD: ODP sample designation (URI: hdl:10013/epic.27914.d001)
+	DEPTH, sediment/rock [m] (Depth) * GEOCODE * COMMENT: mbsf
+	Size fraction < 0.002 mm, > 9 phi, clay [%] (<2 µm, >9 phi) * PI: Ikari, Matt J
+	Vertical stress [kPa] (SigmaV) * PI: Ikari, Matt J
+	Vertical effective stress [kPa] (SigmaV ef) * PI: Ikari, Matt J
+	Shear stress [kPa] (Tau) * PI: Ikari, Matt J
+	Angle [deg] (Angle) * PI: Ikari, Matt J * COMMENT: seafloor slope
+	Parameter [arbitrary unit] (Parameter) * PI: Ikari, Matt J * COMMENT: A, for best-fit curves
+	Parameter [arbitrary unit] (Parameter) * PI: Ikari, Matt J * COMMENT: B, for best-fit curves
+	Parameter [arbitrary unit] (Parameter) * PI: Ikari, Matt J * COMMENT: C, for best-fit curves
+	Coefficient of determination (R**2) * PI: Ikari, Matt J
+License:	Creative Commons Attribution 3.0 Unported (CC-BY)
+Size:	150 data points
+*/
+Event	Sample label	Depth [m]	<2 µm, >9 phi [%]	SigmaV [kPa]	SigmaV ef [kPa]	Tau [kPa]	Angle [deg]	Parameter [arbitrary unit] (A, for best-fit curves)	Parameter [arbitrary unit] (B, for best-fit curves)	Parameter [arbitrary unit] (C, for best-fit curves)	R**2
+315-C0001E	315-C0001E-2H-3	7.91	31.2	130	50	40	3	-0.0051	0.59	0.015	1.000
+315-C0001E	315-C0001E-4H-2	25.13	39.1	390	140	90	3	-0.0026	0.56	0.008	0.999
+315-C0001E	315-C0001E-7H-7	58.25	38.7	930	340	240	3	-0.0041	0.53	0.055	0.998
+315-C0001E	315-C0001E-10H-5	85.22	48.4	1370	520	280	3	-0.0045	0.50	0.021	1.000
+315-C0001E	315-C0001E-13H-6	114.88	43.4	1860	710	470	3	-0.0045	0.58	0.064	0.998
+316-C0004C	315-C0004C-2H-5	10.98	49.4	180	70	40	7	-0.0038	0.56	0.005	0.999
+316-C0004C	315-C0004C-4H-1	25.64	44.5	400	150	80	7	-0.0045	0.57	-0.001	1.000
+316-C0004C	315-C0004C-7H-7	60.89	59.0	980	370	200	7	-0.0004	0.49	0.025	0.995
+316-C0004C	315-C0004C-12X-8	96.97	53.2	1600	630	320	7	-0.0034	0.51	0.002	0.999
+316-C0004C	315-C0004C-15X-2	119.28	54.3	1990	800	310	7	-0.0038	0.52	-0.094	0.995
+316-C0008A	315-C0008A-3H-1	16.05	46.0	260	100	90	12	-0.0029	0.50	0.040	0.999
+316-C0008A	315-C0008A-6H-7	51.56	53.9	850	330	220	12	-0.0014	0.49	0.065	0.998
+316-C0008A	315-C0008A-7H-8	62.86	32.5	1040	410	200	12	-0.0016	0.46	0.021	0.999
+316-C0008A	315-C0008A-10H-8	90.17	45.8	1530	620	300	12	-0.0022	0.50	0.006	0.999
+316-C0008A	315-C0008A-15H-3	121.29	52.2	2060	850	420	12	-0.0020	0.52	0.000	0.999
